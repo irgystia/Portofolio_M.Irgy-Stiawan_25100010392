@@ -1,0 +1,106 @@
+body {
+  background-color: #250902;
+  font-family: Arial;
+  color: #f8d7d9;
+  margin: 0;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #38040E;
+  color: #fce4e4;
+  padding: 12px;
+  border-bottom: 3px solid #800E13;
+}
+
+#profil {
+  width: 170px;
+  border: 3px solid #AD2831;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #38040E;
+  padding: 6px;
+  border-left: 6px solid #800E13;
+}
+
+p {
+  background-color: #640D14;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+ul {
+  background-color: #640D14;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+ol {
+  background-color: #640D14;
+  padding: 18px;
+  border-radius: 5px;
+}
+
+li {
+  margin: 4px;
+  color: #f8d7d9;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffaaaa;
+  text-decoration: underline;
+}
+
+.kontak_saya {
+  text-align: center;
+  background-color: #af3737;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #590303;
+  border-radius: 10px;
+}
+
+.kontak_saya img {
+  margin-right: px;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+
+.kontak_saya img:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: #800E13;
+  color: #fce4e4;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  
+  display: block;
+  margin: 20px auto;
+  box-shadow: 2px 2px 5px #1a0000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #AD2831;
+  transform: scale(1.05);
+}
